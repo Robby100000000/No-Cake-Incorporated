@@ -1,3 +1,3 @@
-# flint-and-steal
-games
+# Games
+
 goal: make a working site
