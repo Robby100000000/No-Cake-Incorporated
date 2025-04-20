@@ -302,4 +302,5 @@
             margin: 4px 2px;
             cursor: pointer;
              background: var(--gradient); 
+               animation: gradient 8s linear infinite;
           }
