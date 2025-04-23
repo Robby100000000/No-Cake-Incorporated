@@ -1,65 +1,81 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Lawnmower Game</title>
-        <script type="text/javascript" src="app.js"></script>
-        <link rel="stylesheet" href="stylesheet.css" type="text/css" />
-        
-        
-        
-    </head>
-    
-    <body>
-        <p id="desc">Wow This Lawn Grows Fast</p>
-        <canvas id="lawn" width=500 height=500>Canvas goes here</canvas>
-        <p id="money">$0</p>
-        <p id="totalMowed">Total Grass Mowed: 0</p>
-        <p id="superTicks"></p>
-        <div id="area">
-            <p></p>
-            <button id="upgradetickRate" onclick="upgrade('tickRate')">Tick Rate - $5</button>
-            <span id="texttickRate">Current: 1000 ms</span>
-            <p></p>
-            <button id="upgradegrowthRate" onclick="upgrade('growthRate')">Growth Rate - $10</button>
-            <span id="textgrowthRate">Current: 4 tiles/tick</span>
-            <p></p>
-            <button id="upgrademachineSpeed" onclick="upgrade('machineSpeed')">Machine Speed - $50</button>
-            <span id="textmachineSpeed">Current: 1 tile/tick</span>
-            <p></p>
-            <button id="upgrademachineSize" onclick="upgrade('machineSize')">Machine Size - $75</button>
-            <span id="textmachineSize">Current: 1x1</span>
-            <p></p>
-            <button id="upgradetileSize" onclick="upgrade('tileSize')">Machine Size - $75</button>
-            <span id="texttileSize">Current: 20x20</span>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon-16x16.png" type="image/png" />
+    <script src="exit.js"></script>
+    <title>NCI</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">No Cake Incorporated</div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <p></p>
-        <button onclick="previous()"><</button>
-        <button id="unlock" onclick="unlockNext()">Unlock Dust Field for $1000000</button>
-        <button onclick="next()">></button>
-        <div id="prestige">
-            <p id="mulch">Mulch: 0</p>
-            <button id="prestigeButton" onclick="attemptPrestige()">Prestige for 0 Mulch</button>
-            <p id="valueBonus">Current Value Bonus: 0%</p>
-            <p id="growthBonus">Current Growth Bonus: 0</p>
-        </div>
-        
-    </body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</html><!-- global script -->
+    </nav>
+    <div class="overlay"></div>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L6VPS22YJG"></script>
-<script src="/global.js"></script>
-<!-- end global script -->
+    <section id="home">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Welcome to No cake Incorporated</h1>
+            <p class="section-description">this is a test page. if you look a this page frecuently you will see lots of changes</p>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="bg-effect bg-effect-2"></div>
+        <div class="section-content">
+            <h1 class="section-title">gamess</h1>
+            <a href="html-games/EaglercraftX_1.8_u50_Offline_Signed.html" class="button">Minecraft</a>
+            <a href="html-games/monkey.html" class="button">Monkey Mart</a>
+            <a href="Flash/html/lft1.html" class="button">Learn to Fly 1</a>
+            <a href="Flash/html/ltf2.html" class="button">Learn to Fly 2</a>
+            <a href="Flash/html/ltf3.html" class="button">Learn to Fly 3</a>
+            <a href="html-games/Slope/index.html" class="button">Slope</a>
+            <a href="bee.html" class="button">Rick</a>
+            <a href="block.html" class="button">Block Blast</a>
+            <a href="Flash/html/btd5.html" class="button">Ballons TD 5</a>
+            <a href="Flash/html/bloxors.html" class="button">Bloxors</a>
+            <a href="Snow-Rider3D-main/index.html" class="button">Snow Rider 3D</a>
+            <a href="DOS/doom.html" class="button">Doom</a>
+            <a href="wow.html" class="button">bee</a>
+          <a href="Flash/html/portal.html" class="button">Portal Flash Ver.</a>
+            <a href="Under Construction.html" class="button">more games</a>
+            </div>
+    </section>
+
+    <section id="services">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Services</h1>
+            <p class="section-description">Innovative solutions tailored to your unique needs</p>
+            <a href="DOS/win95.html" class="button">Windows 95</a>
+        </div>
+    </section>
+
+   
+    <section id="contact">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Contact</h1>
+            <p class="section-description">Let's create stuff</p>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5EWPGh7jbTNO2wakv8LjUI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScF-uQhC41sojtqIAc__HKBQ-8pxc4jw2eY3SQj_SQhxtqW6w/viewform?usp=dialog">Feedback</a></li>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXW4JpnccQDdZzg0ipaEB1SlROlfHRbRVACNLatG7YPw8HYg/viewform">Feedback Form for Feedback Form</a>
+          <p>"he was too scared to put his email. also the form is too professional"- Robert</p>
+          <p>&copy; 2025 Tiny Timmy aka the person that has not touched the website in ages and Robert aka some idiot that some how has a computer</p>
+        </div>
+    </section>
+  </body>
+  <footer></footer>
+</html>
