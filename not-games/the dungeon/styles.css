@@ -14,6 +14,7 @@
 
         body {
             background: rgb(0, 0, 0);
+            background-image: url('photo-1579548122080-c35fd6820ecb.jpg');
             min-height: 100vh;
         }
 
@@ -309,4 +310,3 @@
             color: hsl(0, 0%, 100%);
           }
 
-          
