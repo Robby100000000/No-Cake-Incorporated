@@ -131,7 +131,7 @@
             transform: translateX(-50%);
             width: 20px;
             height: 2px;
-            background: white;
+            background: black;
             transition: all 0.4s ease;
         }
 
@@ -161,7 +161,7 @@
                 transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
                 box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
                 padding: 2rem;
-                backdrop-filter: blur(10px);
+                backdrop-filter: blur(20px);
             }
 
             .nav-links::before {
@@ -291,7 +291,7 @@
         }
 
         .button {
-            background-color: black;
+            background-color: #DE0C0E;
             border: none;
             color: white;
             padding: 15px 32px;
