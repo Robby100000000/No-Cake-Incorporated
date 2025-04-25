@@ -2,4 +2,17 @@ Hello this is a open source project. But if you use our code, we have some rules
 A "contributor" is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. the contributor's "contributor version"
 
 Unlike him i dont yap, also the second url is cake-is-lie.vercel.app   -robert
+
 we have had to add a third url for the website, half-cake-2.vercel.app, we will add more if needed -  robert
+
+List of all urls:
+
+no-cake-incorporated.vercel.app
+
+cake-is-lie.vercel.app
+
+half-cake-2.vercel.app
+
+stop-blocking-this-site.vercel.app
+
+test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
