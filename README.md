@@ -15,4 +15,8 @@ half-cake-2.vercel.app
 
 stop-blocking-this-site.vercel.app
 
+https://i-said-do-not-block-this-site.vercel.app/
+
+https://robby100000000.github.io/No-Cake-Incorporated/
+
 test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
