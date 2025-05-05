@@ -7,12 +7,16 @@ we have had to add a third url for the website, half-cake-2.vercel.app, we will 
 
 List of all urls:
 
-no-cake-incorporated.vercel.app
+https://no-cake-incorporated.vercel.app
 
-cake-is-lie.vercel.app
+https://cake-is-lie.vercel.app
 
-half-cake-2.vercel.app
+https://half-cake-2.vercel.app
 
-stop-blocking-this-site.vercel.app
+https://stop-blocking-this-site.vercel.app
+
+https://i-said-do-not-block-this-site.vercel.app
+
+https://max wont touch this link and it will stay hidden for now
 
 test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
