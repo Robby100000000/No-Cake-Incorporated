@@ -50,11 +50,12 @@ window.addEventListener("beforeunload", (event) => {
             }
         });
 //the stuff below has nothing to do with exiting the page
-        (runscript() {
-            var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
-            l.type = 'image/x-icon';
-            l.rel = 'shortcut icon';
-            l.href = 'https://google.com/favicon.ico';
-            document.getElementsByTagName('head')[0].appendChild(l);
-            document.title = 'Google';
-        })();
+        //(runscript() {
+        //    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+        //    l.type = 'image/x-icon';
+        //    l.rel = 'shortcut icon';
+        //    l.href = 'https://google.com/favicon.ico';
+        //    document.getElementsByTagName('head')[0].appendChild(l);
+        //    document.title = 'Google';
+        //})();
+        // i will fix that sometime this week
