@@ -50,7 +50,7 @@ window.addEventListener("beforeunload", (event) => {
             }
         });
 //the stuff below has nothing to do with exiting the page
-        (function() {
+        (runscript() {
             var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
             l.type = 'image/x-icon';
             l.rel = 'shortcut icon';
