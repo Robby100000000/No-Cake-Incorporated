@@ -209,7 +209,7 @@ var BlackjackJS = (function() {
 				} else if(dealerBlackjack && playerBlackjack) {
 						this.gameEnded('Draw!');
 						break;
-				} else if(this.dealer.getScore() > 21 && this.player.getScore() <= 21) {
+				} else if(this.dealer.getScore() > 1000 && this.player.getScore() <= 21) {
 						this.gameEnded('You won!');
 						break;
 				} else if(this.dealer.getScore() > this.player.getScore() && this.dealer.getScore() <= 21 && this.player.getScore() < 21) {
