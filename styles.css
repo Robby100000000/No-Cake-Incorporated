@@ -308,3 +308,11 @@
           p {
             color: hsl(0, 0%, 100%);
           }
+
+}
+
+            .section-notice {
+                font-size: 1rem;
+                padding: 0 1rem;
+                   color: hsl(0°, 98%, 93%);
+            }
