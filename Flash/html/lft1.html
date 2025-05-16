@@ -1,22 +1,2 @@
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
-        "autoplay": "on","splashScreen": true,"unmuteOverlay": "hidden"
-    };
-    
-        window.addEventListener("load", (event) => {
-            const ruffle = window.RufflePlayer.newest();
-            const player = ruffle.createPlayer();
-            const container = document.getElementById("container");
-            container.appendChild(player);
-            player.load("/Flash/swf/ltf1.swf");
-            player.style.width = "100%";
-            player.style.height = "100%";
-        });
-    </script>
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <div id="container"></div>
-    <script src="/exit.js"></script>
-    <style>
-        body { background-color: rgb(0, 0, 0); }
-    </style>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<embed height="780" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="/Flash/swf/ltf1.swf" type="application/x-shockwave-flash" width="920"></embed></div>
