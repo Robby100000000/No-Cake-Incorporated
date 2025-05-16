@@ -22,3 +22,4 @@ https://canes-sauce-is-good.vercel.app
 https://max wont touch this link and it will stay hidden for now
 
 test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
+isaiah is being useless and has not done anything for a month
