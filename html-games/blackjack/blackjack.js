@@ -33,11 +33,11 @@ var BlackjackJS = (function() {
 		var value = 0;
 
 		if (this.rank == 'A' && currentTotal < 11){
-				value = 11;
+				value = 21;
 		} else if (this.rank == 'A'){
-				value = 1;
+				value = 21;
 		} else if (this.rank == 'J' || this.rank == 'Q' || this.rank == 'K'){
-				value = 10;
+				value = 21;
 		} else {
 				value = parseInt(this.rank);
 		}
