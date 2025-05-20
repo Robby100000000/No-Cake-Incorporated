@@ -316,3 +316,7 @@
                 padding: 0 1rem;
                    color: hsl(0°, 98%, 93%);
             }
+
+            h2 {
+text-align: center;
+}
