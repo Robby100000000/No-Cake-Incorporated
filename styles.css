@@ -309,7 +309,7 @@
             color: hsl(0, 0%, 100%);
           }
 
-}
+
 
             .section-notice {
                 font-size: 1rem;
@@ -319,4 +319,75 @@
 
             h2 {
 text-align: center;
+}
+
+
+.password-wall {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: linear-gradient(135deg, #0b1120 70%, #1e293b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+.password-wall.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.pw-modal {
+    background: #181c23;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.40);
+    padding: 38px 30px 30px 30px;
+    text-align: center;
+    min-width: 320px;
+    max-width: 90vw;
+}
+.pw-modal h2 {
+    margin-top: 0;
+    color: #60a5fa;
+}
+.pw-modal input[type="password"] {
+    background: #23304a;
+    border: none;
+    border-radius: 6px;
+    color: #dbeafe;
+    padding: 10px 14px;
+    font-size: 1.12em;
+    width: 90%;
+    margin: 20px 0 15px 0;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(30,58,138,0.13);
+    transition: border-color 0.2s;
+}
+.pw-modal input[type="password"]:focus {
+    border: 1.5px solid #60a5fa;
+}
+.pw-modal button {
+    background: linear-gradient(90deg, #2563eb, #60a5fa 90%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 32px;
+    font-size: 1.08em;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 2px 8px #2563eb33;
+    transition: background 0.2s, transform 0.2s;
+}
+.pw-modal button:hover {
+    background: linear-gradient(90deg, #60a5fa, #2563eb 90%);
+    transform: scale(1.04);
+}
+.pw-error {
+    color: #f87171;
+    font-size: 0.97em;
+    margin-top: 6px;
+    min-height: 22px;
+}
+/* Hide scroll when locked */
+body.locked {
+    overflow: hidden;
 }
