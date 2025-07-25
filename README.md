@@ -21,3 +21,4 @@ test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
 isaiah is being useless and has not done anything useful
   <a href="https://example.com" style="color: inherit; text-decoration: none;">thats what she said</a> (code for buttons because i have horrable memory)
   
+We hate lawnmowers here. It was isaiah's fault.
