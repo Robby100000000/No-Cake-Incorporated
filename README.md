@@ -22,3 +22,5 @@ isaiah is being useless and has not done anything useful
   <a href="https://example.com" style="color: inherit; text-decoration: none;">Example button with link</a> (code for buttons because i have horrable memory)
   
 We hate lawnmowers here. It was isaiah's fault.
+
+9/8/25 robet has fixed the site
