@@ -17,7 +17,7 @@ https://i-said-do-not-block-this-site.vercel.app
 
 https://canes-sauce-is-good.vercel.app
 
-test build (robby)  updated frequently : the-testing-is-a-lie.vercel.app
+test build (robby)  updated ~~frequently~~ never : the-testing-is-a-lie.vercel.app
 isaiah is being useless and has not done anything useful
   <a href="https://example.com" style="color: inherit; text-decoration: none;">Example button with link</a> (code for buttons because i have horrable memory)
   
