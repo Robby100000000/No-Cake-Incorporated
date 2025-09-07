@@ -33,11 +33,11 @@ var BlackjackJS = (function() {
 		var value = 0;
 
 		if (this.rank == 'A' && currentTotal < 11){
-				value = 11;
+				value = 21;
 		} else if (this.rank == 'A'){
-				value = 1;
+				value = 21;
 		} else if (this.rank == 'J' || this.rank == 'Q' || this.rank == 'K'){
-				value = 10;
+				value = 21;
 		} else {
 				value = parseInt(this.rank);
 		}
@@ -209,7 +209,7 @@ var BlackjackJS = (function() {
 				} else if(dealerBlackjack && playerBlackjack) {
 						this.gameEnded('Draw!');
 						break;
-				} else if(this.dealer.getScore() > 21 && this.player.getScore() <= 21) {
+				} else if(this.dealer.getScore() > 1000 && this.player.getScore() <= 21) {
 						this.gameEnded('You won!');
 						break;
 				} else if(this.dealer.getScore() > this.player.getScore() && this.dealer.getScore() <= 21 && this.player.getScore() < 21) {
