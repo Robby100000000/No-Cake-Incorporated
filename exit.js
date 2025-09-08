@@ -49,22 +49,6 @@ window.addEventListener("beforeunload", (event) => {
                 toggleMenu();
             }
         });
-
-        /* Sticky header bar */
-$(window).scroll(function() {
-if ($(this).scrollTop() > 1){  
-    $('.navbar').addClass("sticky-header");
-  $('.navbar').css("margin-top", "0px");
-  }
-  else{
-    $('.navbar').removeClass("sticky-header");
-    $('.navbar').css("margin-top", "40px");
-  }
-});
-
-/* ScrollSpy */
-$('body').scrollspy({ target: '#navbar-spy' });
-
 //the stuff below has nothing to do with exiting the page
         //(runscript() {
         //    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
