@@ -3,23 +3,9 @@ A "contributor" is a copyright holder who authorizes use under this License of t
 
 You know the rules and so do I
 
-List of all urls:
-
-https://no-cake-incorporated.vercel.app
-
-https://cake-is-lie.vercel.app
-
-https://half-cake-2.vercel.app
-
-https://stop-blocking-this-site.vercel.app
-
-https://i-said-do-not-block-this-site.vercel.app
-
-https://canes-sauce-is-good.vercel.app
-
 test build (robby)  updated ~~frequently~~ never : the-testing-is-a-lie.vercel.app
-isaiah is being useless and has not done anything useful
-  <a href="https://example.com" style="color: inherit; text-decoration: none;">Example button with link</a> (code for buttons because i have horrable memory)
+
+Download stable offline version: https://github.com/Robby100000000/No-Cake-Incorporated/releases/tag/v0.6.5-beta
   
 We hate lawnmowers here. It was isaiah's fault.
 
