@@ -498,12 +498,12 @@ body.locked {
     radial-gradient(circle at 50% 50%, #0f0, #0f00 60%),
     radial-gradient(ellipse at 50% 50%, #00f, #00f0 60%);
   background-size:
-    100% 100%,
-    100% 100%,
+    12px 20.7846097px,
+    12px 20.7846097px,
     200% 200%,
     200% 200%,
     200% 200%,
-    200% 100%;
+    200% 20.7846097px;
   --p: 0px 0px, 6px 10.39230485px;
   background-position:
     var(--p),
