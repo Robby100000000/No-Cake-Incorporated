@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Base64 Encoder / Decoder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Base64 Encoder / Decoder</h2>
+
+  <label for="inputText">Input:</label>
+  <textarea id="inputText" placeholder="Enter text to encode or Base64 to decode..."></textarea>
+
+  <button onclick="encodeBase64()">Encode</button>
+  <button onclick="decodeBase64()">Decode</button>
+
+  <label for="outputText">Output:</label>
+  <textarea id="outputText" readonly placeholder="Result will appear here..."></textarea>
+
+  <script>
+    function encodeBase64() {
+      const input = document.getElementById("inputText").value;
+      try {
+        const encoded = btoa(unescape(encodeURIComponent(input)));
+        document.getElementById("outputText").value = encoded;
+      } catch (e) {
+        alert("Error encoding text. Make sure it's valid UTF-8.");
+      }
+    }
+
+    function decodeBase64() {
+      const input = document.getElementById("inputText").value;
+      try {
+        const decoded = decodeURIComponent(escape(atob(input)));
+        document.getElementById("outputText").value = decoded;
+      } catch (e) {
+        alert("Error decoding Base64. Make sure it's a valid Base64 string.");
+      }
+    }
+  </script>
+</body>
+</html>
