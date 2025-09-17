@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base16 Encoder/Decoder</title>
+</head>
+<body>
+    <h1>Base16 Encoder/Decoder</h1>
+
+    <div>
+        <label for="inputText">Input Text:</label><br>
+        <textarea id="inputText" rows="5" cols="50"></textarea>
+    </div>
+    <br>
+    <div>
+        <button onclick="encodeBase16()">Encode to Base16</button>
+        <button onclick="decodeBase16()">Decode from Base16</button>
+    </div>
+    <br>
+    <div>
+        <label for="outputResult">Output:</label><br>
+        <textarea id="outputResult" rows="5" cols="50" readonly></textarea>
+    </div>
+
+    <script>
+        function encodeBase16() {
+    const inputText = document.getElementById('inputText').value;
+    let hexResult = '';
+    for (let i = 0; i < inputText.length; i++) {
+        const charCode = inputText.charCodeAt(i);
+        hexResult += charCode.toString(16).padStart(2, '0'); // Convert to hex and pad with leading zero if needed
+    }
+    document.getElementById('outputResult').value = hexResult.toUpperCase(); // Display in uppercase
+}
+    </script>
+</body>
+</html>
