@@ -1,0 +1,27 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>USER LOGIN</title>
+</head>
+<body>
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "67cakesarelie";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="/newindex.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+<p>temporary login</p>
+</body>
+</html>
