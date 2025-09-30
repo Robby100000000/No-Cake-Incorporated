@@ -10,3 +10,5 @@ Download stable offline version: https://github.com/Robby100000000/No-Cake-Incor
 We hate lawnmowers here. It was isaiah's fault.
 
 9/8/25 robet has fixed the site
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Metroxe/one-html-page-challenge.svg?variant=adaptive)](https://starchart.cc/Metroxe/one-html-page-challenge)
