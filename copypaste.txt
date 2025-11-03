@@ -30,3 +30,7 @@
 [-add linked button (must be used on a page that uses /styles.css such as index.html)-]
 
 <a href="not-games/ti84pce-html5-main/index.html" class="button">TI-84 Calculator</a>
+
+[-add linked button version 2 (must be used on a page that uses /styles.css such as index.html)-]
+
+<a href="not-games/ti84pce-html5-main/index.html" class="button2">TI-84 Calculator</a>
