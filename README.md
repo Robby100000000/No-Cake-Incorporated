@@ -8,5 +8,7 @@ test build (robby)  updated ~~frequently~~ never : the-testing-is-a-lie.vercel.a
 Download stable offline version: https://github.com/Robby100000000/No-Cake-Incorporated/releases/tag/v0.6.5-beta
   
 "We hate lawnmowers here. It was isaiah's fault" 
-"Yeah I am good a never doing anything, and when i do, I break everything"
+
+"Yeah I am good at never doing anything, and when i do, I break everything"-isa055
+
 9/8/25 robet has fixed the site
