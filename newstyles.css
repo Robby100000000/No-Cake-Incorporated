@@ -17,7 +17,7 @@
             min-height: 100vh;
         }
 
-        /*.navbar {
+        //*.navbar {
             position: fixed;
             top: 0;
             left: 0;
@@ -213,7 +213,7 @@
             .mobile-nav-toggle.active .bar:nth-child(3) {
                 transform: translate(-50%, -5px) rotate(-45deg);
                 width: 24px;
-            }*/
+            }*//
 
             .overlay {
                 position: fixed;
@@ -232,7 +232,7 @@
                 opacity: 1;
                 visibility: visible;
             }
-        
+        }
 
 
             .section-title {
