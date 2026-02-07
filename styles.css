@@ -13,8 +13,8 @@
         }
 
         body {
-            background: rgb(1, 1, 1);
             min-height: 100vh;
+            background: url('galaxy.jpg') no-repeat center/cover rgb(1, 1, 1);
         }
 
         .navbar {
